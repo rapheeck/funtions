@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/ikonka beskid wyspowy.png">
+    <meta property="og:image" content="images/share.png">
+    <title>Beskid Wyspowy na zdjęciach</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/lists.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="mainContainer">
+    <header>
+        <h1 class="mainHeader"> Piękno Beskidu Wyspowego</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#main">Strona główna</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#peaks">Szczyty</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#passes">Przełęcze</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#reserves">Rezerwaty</a></li>
+            <li class="navigation__item"><a class="navigation__link navigation__link--gallery"
+                    href="#photoGallery">Zdjęcia</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="aboutMe">
+            <h2 class="aboutMe__header" id="main"> Kilka słów o mnie</h2>
+            <img class="aboutMe__picture" width="200" src="images/IMG_20220528_202217.jpg" alt="Rafał">
+            <p>Cześć. Jestem Rafał i uwielbiam Beskid Wyspowy. Bardzo lubię robić zdjęcia zimą i latem. Moją pasją są
+                wycieczki na szczyty "Wyspowego"</p>
+            <h2> Kilka słów o Beskidzie Wyspowym</h2>
+            <p><strong> Beskid Wyspowy </strong> - część <b> Beskidów Zachodnich </b>
+                położona
+                pomiędzy doliną Raby a Kotliną Sądecką. Charakterystyczną cechą tego regionu południowej Polski, jest
+                występowanie odosobnionych, pojedynczych szczytów <i>tzw. wysp</i>, od czego pochodzi jego nazwa.</p>
+        </section>
+        <section>
+            <h2 id=peaks> Szczyty </h2>
+            <div class="container">
+                <table class="table">
+                    <caption class="table__caption">Najważniejsze szczyty</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col"> Nazwa szczytu </th>
+                        <th class="table__cell table__cell--header" scope="col"> Wysokość w m n.p.m. </th>
+                        <th class="table__cell table__cell--header" scope="col"> Kolory szlaków </th>
+                        <th class="table__cell table__cell--header" scope="col"> Zdobyty </th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row"> Mogielica </th>
+                        <td class="table__cell"> 1170 </td>
+                        <td class="table__cell"> niebieski, zielony, żółty </td>
+                        <td class="table__cell"> 💪 </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row"> Ćwilin </th>
+                        <td class="table__cell"> 1072 </td>
+                        <td class="table__cell"> niebieski, żółty </td>
+                        <td class="table__cell"> 💪 </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row"> Jasień </th>
+                        <td class="table__cell"> 1063 </td>
+                        <td class="table__cell"> zielony, żółty </td>
+                        <td class="table__cell"> 💪 </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row"> Modyń </th>
+                        <td class="table__cell"> 1029 </td>
+                        <td class="table__cell"> niebieski, żółty </td>
+                        <td class="table__cell"> </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row"> Luboń Wielki </th>
+                        <td class="table__cell"> 1022 </td>
+                        <td class="table__cell"> czerwony, niebieski, zielony, żółty</td>
+                        <td class="table__cell"> </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h2 id="passes"> Ważniejsze przełęcze</h2>
+            <p>
+                <button class="pushbutton"><span class="themeName">Usuń</span> tło i kolor tekstu</button>
+            </p>
+            <div class="passes">
+                <ol class="listNumbered">
+                    <li>Glisne</li>
+                    <li>przełęcz Gruszowiec</li>
+                    <li>Jaworzyce</li>
+                    <li>przełęcz Ostra-Cichoń</li>
+                    <li>przełęcz pod Kobylicą</li>
+                    <li>Przysłopek</li>
+                    <li>Przysłop</li>
+                    <li>Lubomierski</li>
+                    <li>przełęcz Rozdziele</li>
+                    <li>przełęcz Rydza-Śmigłego</li>
+                    <li>przełęcz Słopnicka</li>
+                    <li>Widoma</li>
+                    <li>Wielkie Drogi</li>
+                    <li>Wierzbanowska Przełęcz</li>
+                    <li>Zasańska Przełęcz</li>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <h2 id="reserves">Rezerwaty przyrody</h2>
+            <ul class="listUnnumbered">
+                <li> rezerwat przyrody Białowodzka Góra nad Dunajcem </li>
+                <li> rezerwat przyrody Kamionna </li>
+                <li> rezerwat przyrody Kostrza </li>
+                <li> rezerwat przyrody Luboń Wielki </li>
+                <li> rezerwat przyrody Mogielica </li>
+                <li> rezerwat przyrody Śnieżnica </li>
+                <li> rezerwat przyrody Zamczysko nad Rabą </li>
+            </ul>
+        </section>
+        <section>
+            <h2 id=photoGallery> Galeria zdjęć</h2>
+            <img class="photos" src="images/wiatrak.jpg" alt="Szczyt Łupusze Wschodnie">
+            <img class="photos" src="images/dolina.jpg" alt="Widok na Dolinę Łososiny">
+            <img class="photos" src="images/widok.jpg" alt="Widok w stronę Limanowej">
+            <img class="photos" src="images/na.jpg" alt="Widok na Na Wyrębie">
+            <img class="photos" src="images/las.jpg" alt="Szpilkówka">
+        </section>
+    </main>
+    <footer class="footer">
+        &copy; Rafał 2023
+    </footer>
+</body>

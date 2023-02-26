@@ -1,0 +1,36 @@
+.navigation {
+    float: left;
+    width: 100%;
+    padding: 0 0 20px;
+    margin: 0;
+    list-style: none;
+}
+
+.navigation__list .navigation__item {
+    display: block;
+    float: left;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: hsl(209, 20%, 45%);
+    padding: 10px 20px;
+    margin: auto;
+    border: 1px solid navy;
+    box-shadow: 0px 2px 3px gray;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 16px;
+}
+
+.navigation__link--gallery {
+    color: darkgrey;
+}
+
+.navigation__link:hover {
+    text-decoration: none;
+    color: crimson;
+}
