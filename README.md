@@ -4,7 +4,7 @@
 
 ## Demo
 
-[https://rapheeck.github.io/homepage/](https://rapheeck.github.io/funtions/)
+[https://rapheeck.github.io/functions/](https://rapheeck.github.io/funtions/)
 
 ## Description
 
