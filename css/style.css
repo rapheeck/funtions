@@ -34,17 +34,17 @@ html {
     color: blueviolet
 }
 
-.passes {
+.js-passes {
     color: hsla(0, 81%, 33%, 0.795);
     background-color: hsla(60, 24%, 83%, 0.849);
 }
 
-.blind {
+.js-blind {
     color: #000;
     background-color: white;
 }
 
-.pushbutton {
+.js-pushbutton {
     font-size: 14px;
     font-weight: 700;
     border: 2px solid;
