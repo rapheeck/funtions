@@ -15,7 +15,7 @@ html {
 }
 
 .mainHeader {
-    background-image: url("https://github.com/rapheeck/homepage/blob/main/images/Beskid_Wyspowy_a10.jpg");
+    background: left / cover url("https://raw.githubusercontent.com/rapheeck/funtions/main/images/Beskid_Wyspowy_a10.jpg");
     display: flex;
     height: 120px;
     align-items: center;
